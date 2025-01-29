@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        iframe {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Website!</h1>
+    
+    <!-- Image with ALT tag -->
+    <img src="https://via.placeholder.com/800x400" alt="A placeholder image">
+    
+    <p>This is the homepage of your website.</p>
+    
+    <!-- External Link -->
+    <p>You can visit our <a href="https://www.example.com" target="_blank">website</a>.</p>
+    
+    <!-- Permanent Link to Homepage -->
+    <a href="index.html">Return to Homepage</a>
+    
+    <!-- YouTube Video embedded using iframe -->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
