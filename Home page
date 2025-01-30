@@ -1,44 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <style>
-        body {
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-        h1 {
-            text-align: center;
-            color: #333;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-        iframe {
-            display: block;
-            margin: 20px auto;
-            max-width: 100%;
-        }
-    </style>
+    <title>الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the Website!</h1>
+    <h1>مرحبًا بك في موقعي</h1>
+    <img src="home-image.jpg" alt="صورة الصفحة الرئيسية">
     
-    <!-- Image with ALT tag -->
-    <img src="https://via.placeholder.com/800x400" alt="A placeholder image">
-    
-    <p>This is the homepage of your website.</p>
-    
-    <!-- External Link -->
-    <p>You can visit our <a href="https://www.example.com" target="_blank">website</a>.</p>
-    
-    <!-- Permanent Link to Homepage -->
-    <a href="index.html">Return to Homepage</a>
-    
-    <!-- YouTube Video embedded using iframe -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <p>هذه هي الصفحة الرئيسية لموقعي البسيط.</p>
+
+    <nav>
+        <a href="index.html">الرئيسية</a> | 
+        <a href="about.html">من نحن</a> | 
+        <a href="contact.html">اتصل بنا</a>
+    </nav>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+        title="مشغل فيديو يوتيوب" frameborder="0" allowfullscreen>
+    </iframe>
+
+    <footer>
+        <p><a href="https://www.w3schools.com" target="_blank">قم بزيارة W3Schools</a></p>
+    </footer>
 </body>
 </html>
